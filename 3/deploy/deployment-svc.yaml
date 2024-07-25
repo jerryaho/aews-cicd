@@ -17,8 +17,8 @@ spec:
         app: mywebs
     spec:
       containers:
-      - name: myweb
-        image: ad95030/myweb:v1.0.0
+      - name: malware
+        image: ad95030/nginx:malware
       terminationGracePeriodSeconds: 0
 ---
 apiVersion: v1
